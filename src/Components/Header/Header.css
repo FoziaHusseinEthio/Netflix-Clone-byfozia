@@ -1,0 +1,38 @@
+*{
+  list-style: none;
+}
+.header-outer-container {
+  background-color: rgb(22, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  color: white;
+}
+.header-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header-left ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140%;
+
+}
+.header-right ul{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.header-right{
+ width: 10%;}
+
+ li img{
+  width: 80px;}
